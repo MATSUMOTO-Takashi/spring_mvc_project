@@ -28,6 +28,6 @@
     <beans:property name="suffix" value=".jsp" />
   </beans:bean>
 
-  <context:component-scan base-package="local.tmatsumoto.spring_mvc_project" />
+  <context:component-scan base-package="local.tmatsumoto.app" />
 
 </beans:beans>

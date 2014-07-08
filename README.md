@@ -12,8 +12,6 @@ rm -rf .git
 git init
 
 find spring_mvc_project -type f | xargs sed -i "" "s/spring_mvc_project/$PNAME/g"
-mv $PNAME/src/main/java/local/tmatsumoto/spring_mvc_{project,unittest}
-mv $PNAME/src/test/java/local/tmatsumoto/spring_mvc_{project,unittest}
 ```
 
 ※ sedはMacの場合の書き方

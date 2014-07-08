@@ -1,4 +1,4 @@
-package local.tmatsumoto.spring_mvc_project;
+package local.tmatsumoto.app;
 
 import java.text.DateFormat;
 import java.util.Date;
